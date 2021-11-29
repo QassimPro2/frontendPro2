@@ -1,11 +1,15 @@
 @import "react-slideshow-image/dist/styles.css";
 
+.backgroundColor {
+  background-color: #f2f2f2;
+}
+
 .each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: contain;
-  height: 500px;
+  height: 670px;
 }
 
 .each-slide span {
@@ -16,6 +20,110 @@
 }
 
 .slideSize {
-  width: 90%;
+  width: 60%;
+
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideRepeatTrip2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.imageHome {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("https://www.otlaat.com/wp-content/uploads/2018/06/%D8%A7%D9%84%D8%A7%D9%86%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D8%A8%D9%87%D8%A7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: #efefef;
+  position: relative;
+} /* */
+
+.imageHomeContent {
+  text-align: center;
+  font-family: "Rakkas", cursive;
+  padding: 15%;
+}
+
+.homeText1 {
+  text-align: center;
+  border-bottom: 3px solid rgb(196, 196, 196);
+  width: 10%;
+  margin: 5% auto;
+}
+
+.homeBox1 {
   margin: auto;
+  width: 60%;
+
+  /* border: 3px solid #73ad21;
+  padding: 10px; */
+}
+
+.homeBox1C1 {
+  float: left;
+  width: 50%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.homeBox1C2 {
+}
+
+.homeBox1C1B1 {
+  background-color: rgb(47, 156, 138);
+  border-color: rgb(26, 117, 102);
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 130%;
+  padding: 1%;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 3px;
+}
+
+.homeBox2 {
+  margin: 7% auto;
+  width: 60%;
+  background-color: azure;
+  padding: 5%;
+}
+
+.homeBox2C1 {
+  float: left;
+  width: 60%;
+}
+
+.homeBox2C2 {
+  text-align: center;
+}
+
+.homeBox2C1B1 {
+  background-color: rgb(47, 156, 138);
+  border-color: rgb(26, 117, 102);
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 130%;
+  padding: 1%;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 3px;
 }

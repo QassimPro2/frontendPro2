@@ -46,6 +46,26 @@ export default function Myplan() {
         <option value="1">1رحلة</option>
         <option value="3">2رحلة</option>
       </select>
+
+      <p>:التكلفة</p>
+
+      <button
+        className="btn1"
+        onClick={() => {
+          //navigate("/login");
+        }}
+      >
+        إضافة الى المفضلة
+      </button>
+
+      <button
+        className="btn1"
+        onClick={() => {
+          //navigate("/login");
+        }}
+      >
+        إرسال الى بريدك الإلكتروني
+      </button>
     </div>
   );
 }

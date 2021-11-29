@@ -3,8 +3,12 @@ import "./style.css";
 
 export default function Footer() {
   return (
-    <div>
-      <h2>All &copy; footer</h2>
+    <div className="footer">
+      <h2>
+        {" "}
+        &copy; جميع الحقوق محفوظة لأكاديمية طويق , تم تنفيذ الموقع بواسطة نوره
+        المحيميد
+      </h2>
     </div>
   );
 }

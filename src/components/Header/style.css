@@ -10,12 +10,17 @@
 .nav {
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-bottom: 5%;
+
   box-shadow: 0px 0px 3px rgb(189, 179, 179);
+  /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("https://static1.s123-cdn-static-a.com/ready_uploads/media/8411623/400_606b6d30c8c55.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .headers {
-  margin-left: 30%;
+  margin-left: 10%;
   margin-right: 20%;
 }
 
@@ -32,9 +37,22 @@
 }
 
 .logo {
-  font-size: 250%;
+  font-size: 200%;
   font-family: "Rakkas", cursive;
   color: rgb(90, 151, 204);
+  /* padding-right: 3%; */
+}
+
+.logoName {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("https://vip.vipbengurion.com/img/plane_loading.d89d7baa.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8%;
+  height: 8%;
+  padding: 3%;
+  position: relative;
 }
 
 .loginBtn {
@@ -46,7 +64,7 @@
   text-align: center;
   font-size: 100%;
   padding: 0.5%;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .loginBtn:hover {
@@ -58,8 +76,8 @@
 }
 
 .signupBtn {
-  background-color: rgb(139, 74, 74);
-  border-color: rgb(139, 74, 74);
+  background-color: #b29a36;
+  border-color: #b29a36;
   border-style: solid;
   border-width: 1px;
   color: #ffffff;
@@ -67,12 +85,196 @@
   font-size: 100%;
   padding: 0.5%;
   margin-left: 0.5%;
+  margin-right: 10%;
 }
 
 .signupBtn:hover {
   background-color: #ffffff;
-  border-color: rgb(139, 74, 74);
+  border-color: #b29a36;
   border-style: solid;
   border-width: 1px;
-  color: rgb(139, 74, 74);
+  color: #b29a36;
+}
+
+CSSCSS label.dropdown select {
+  padding: 10px 42px 10px 10px;
+  background: #f8f8f8;
+  color: #444;
+  border: 1px solid #aaa;
+  border-radius: 0;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+label.dropdown select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #444;
+}
+label.dropdown select::-ms-expand {
+  display: none;
+}
+label.dropdown:before {
+  content: "";
+  right: 5px;
+  top: -7px;
+  width: 30px;
+  height: 33px;
+  background: #f8f8f8;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+}
+label.dropdown {
+  position: relative;
+}
+label.dropdown:after {
+  content: ">";
+  font: 16px Consolas, monospace;
+  color: #444;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 2px;
+  top: -3px;
+  border-bottom: 1px solid #aaa;
+  position: absolute;
+  pointer-events: none;
+  width: 35px;
+  padding: 0 0 5px 0;
+  text-indent: 14px;
+}
+@media screen\0 {
+  label.dropdown:after {
+    width: 38px;
+    text-indent: 15px;
+    right: 0;
+  }
+}
+@media screen and (min--moz-device-pixel-ratio: 0) {
+  label.dropdown select {
+    padding-right: 40px;
+  }
+  label.dropdown:before {
+    right: 6px;
+  }
+  label.dropdown:after {
+    text-indent: 14px;
+    right: 6px;
+    top: -5px;
+    width: 36px;
+  }
+}
+
+label.dropdown select {
+  padding: 10px 42px 10px 10px;
+  background: #f8f8f8;
+  color: #444;
+  border: 1px solid #aaa;
+  border-radius: 0;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+label.dropdown select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #444;
+}
+label.dropdown select::-ms-expand {
+  display: none;
+}
+label.dropdown:before {
+  content: "";
+  right: 5px;
+  top: -7px;
+  width: 30px;
+  height: 33px;
+  background: #f8f8f8;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+}
+label.dropdown {
+  position: relative;
+}
+label.dropdown:after {
+  content: ">";
+  font: 16px Consolas, monospace;
+  color: #444;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 2px;
+  top: -3px;
+  border-bottom: 1px solid #aaa;
+  position: absolute;
+  pointer-events: none;
+  width: 35px;
+  padding: 0 0 5px 0;
+  text-indent: 14px;
+}
+@media screen\0 {
+  label.dropdown:after {
+    width: 38px;
+    text-indent: 15px;
+    right: 0;
+  }
+}
+@media screen and (min--moz-device-pixel-ratio: 0) {
+  label.dropdown select {
+    padding-right: 40px;
+  }
+  label.dropdown:before {
+    right: 6px;
+  }
+  label.dropdown:after {
+    text-indent: 14px;
+    right: 6px;
+    top: -5px;
+    width: 36px;
+  }
+}
+
+.menu {
+  margin-left: 10%;
+}
+
+.tripBox1 {
+  margin: auto;
+  width: 80%;
+
+  /* border: 3px solid #73ad21;
+  padding: 10px; */
+}
+
+.tripBox1C1 {
+  float: left;
+  width: 50%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.tripBox1C2 {
+}
+
+.tripBox1C1B1 {
+  background-color: rgb(47, 156, 138);
+  border-color: rgb(26, 117, 102);
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 130%;
+  padding: 1%;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 3px;
 }

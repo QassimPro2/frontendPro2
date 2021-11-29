@@ -18,11 +18,11 @@ function App() {
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/trips" element={<Trips />} />
-        <Route exact path="/trip" element={<Trip />} />
+        <Route exact path="/trip/:id" element={<Trip />} />
         <Route exact path="/myplan" element={<Myplan />} />
         <Route path="*" element={<h1> 404 </h1>} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
